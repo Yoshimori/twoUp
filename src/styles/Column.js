@@ -13,7 +13,7 @@ export const ColumnWrapper = styled.div`
     }
 
     &:nth-child(2n+2) {
-        background-color: grey;
+        background-color: #c5c8cc;
     }
 `
 export const Column__1 = styled.div`

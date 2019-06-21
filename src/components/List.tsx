@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { inject, observer} from 'mobx-react'
 
+import { css } from 'emotion'
+
 import * as Cl from '../styles/Column'
 
 @inject('ExpensesStore')
@@ -18,7 +20,7 @@ class List extends Component<any> {
         return (
     
             <div>
-                <Cl.ColumnWrapper>
+                <Cl.ColumnWrapper className={css`background-color: #e0e2e5`}>
                     <Cl.Column__1>
                         Title
                     </Cl.Column__1>

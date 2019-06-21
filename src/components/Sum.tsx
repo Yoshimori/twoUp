@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { inject, observer} from 'mobx-react'
 
+import { css } from 'emotion'
+
 @inject('ExpensesStore')
 @observer
 

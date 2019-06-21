@@ -70,7 +70,7 @@ class Form extends Component<any> {
     render() {
         return (
             <div>
-                <form action="" onSubmit={ e => this.handleSubmit(e) } autoComplete="false">
+                <form action="" onSubmit={ e => this.handleSubmit(e) } autoComplete="off">
                         
                     <FlexJc>
                         <div>
